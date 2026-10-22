@@ -4,6 +4,8 @@ Interactive Digital Space Controlled by Your Hands. This repository is the **fir
 
 Live experience: https://lhr0331.github.io/GESTURE-SPACE/
 
+GitHub Pages currently publishes the built site from the `gh-pages` branch.
+
 ## Run on Windows
 
 Use Node.js 20.19+ and a current Chrome or Edge browser with a webcam. In VS Code, open this folder and run:
