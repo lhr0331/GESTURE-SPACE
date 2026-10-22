@@ -2,6 +2,8 @@
 
 Interactive Digital Space Controlled by Your Hands. This repository is the **first runnable stage**: introduction, webcam calibration, real-time hand landmarks and gesture data, and a colored side-view rose made from GPU particles.
 
+Live experience: https://lhr0331.github.io/GESTURE-SPACE/
+
 ## Run on Windows
 
 Use Node.js 20.19+ and a current Chrome or Edge browser with a webcam. In VS Code, open this folder and run:

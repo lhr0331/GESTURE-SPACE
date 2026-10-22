@@ -2,8 +2,8 @@ import { useEffect, useRef } from 'react'
 import { FilesetResolver, HandLandmarker } from '@mediapipe/tasks-vision'
 import { classifyHand, createGestureSmoother } from '../utils/gestureDetection'
 
-const WASM_ROOT = '/wasm'
-const MODEL_PATH = '/models/hand_landmarker.task'
+const WASM_ROOT = `${import.meta.env.BASE_URL}wasm`
+const MODEL_PATH = `${import.meta.env.BASE_URL}models/hand_landmarker.task`
 
 export default function GestureTracker({ active, onFrame, onReady, onError, onStream }) {
   const videoRef = useRef(null)
